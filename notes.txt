@@ -1,0 +1,14 @@
+Higher Order Component
+
+A pattern where function takes a component as argument and returns a new component.
+
+const NewComponent = higherOrderComponent( originalComponent )
+
+HOC adds a new functionality to the original component.
+It can also be referred to as an enhanced component.
+
+const enhancedComponent = higherOrderComponent( originalComponent )
+
+Best Example:
+const IronMan = withSuit( TonyStark )
+
