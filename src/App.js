@@ -7,6 +7,7 @@ export default function App() {
   return (
     <div className="App">
       <ClickCounter type="ClickCounter" />
+
       <HoverCounter />
     </div>
   );
